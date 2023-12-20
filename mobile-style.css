@@ -1,0 +1,27 @@
+@media screen and (max-width: 992px) {
+    ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    label {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 40px;
+    }
+
+    label:hover {
+        cursor: pointer;
+    }
+
+    #toggle:checked + ul {
+        display: flex;
+    }
+
+    .article-container {
+        display: flex;
+        flex-direction: column;
+    }
+}

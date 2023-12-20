@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    background-color: #edddef;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav, nav h1, footer {
+    background-color: #a306b6;
+    color: #fff;
+} 
+
+nav h1 {
+    margin-bottom: 10px;
+}
+
+label, #toggle {
+    display: none;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+header {
+    background: url("https://loremflickr.com/cache/resized/65535_53360451161_630be987f0_h_1280_400_nofilter.jpg") no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+main {
+    max-width: 65ch;
+    margin: auto;
+}
+
+section {
+    margin: 30px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+}
+
+.article-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+article {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 30px;
+    box-shadow: 1px 6px 10px 5px rgba(0,0,0,0.69);
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+ 
